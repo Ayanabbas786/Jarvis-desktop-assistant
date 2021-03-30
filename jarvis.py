@@ -93,10 +93,6 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"Sir, The time is {strTime}")
 
-        elif 'the date' in query:
-            date = datetime.datetime.now()
-            speak(
-                f"Sir, today is {date.day}, {date.date} {date.month} {date.year}")
 
         elif 'open code' in query:
             codePath = "C:\\Users\\USER\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
