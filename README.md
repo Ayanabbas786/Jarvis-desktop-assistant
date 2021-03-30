@@ -1,13 +1,13 @@
 This program is made using Python.
 
 The modules used are:
- pyttsx3
- datetime
- speech_recognition as sr
- wikipedia
- webbrowser
- os
- smtplib
+ pyttsx3,
+ datetime,
+ speech_recognition,
+ wikipedia,
+ webbrowser,
+ os,
+ smtplib,
 
  The steps you need to do before you run:
  1. Install all the modules which are not installed.
